@@ -1,0 +1,149 @@
+
+.site-title{
+	padding: 10px 10px;
+	background-color: #03a9f4;
+	color: white;
+	font-family: "Roboto";
+	font-weight: 350;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-family: "Roboto";
+}
+
+.navbar{
+	overflow: hidden;
+	padding-left: 25px;
+}
+
+.navlist {
+	margin: 0;
+	padding: 0;
+}
+
+.navlink:hover a{
+	color: #03a9f4;
+}
+
+.navitem{
+	display: inline-block;
+	padding: 5px 20px;
+	font-weight: bolder;
+	font-size: large;
+}
+
+.navlink.active{
+	border-bottom: 4px solid #03a9f4
+}
+
+.navbar-search{
+	float: right;
+}
+
+#navbar-search-input{
+	padding: 5px 10px;
+	border: none;
+	background-color: #F5F5F5;
+}
+
+#navbar-search-input:focus {
+	background-color: white;
+}
+
+#navbar-search-button{
+	border: none;
+	background-color: white;
+}
+
+.fas:hover{
+	color: #03a9f4;
+}
+
+.twit-container{
+	
+	background-color: #F5F5F5;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 80px;
+	padding-top: 30px;
+	padding-bottom: 400px;
+	min-width: 75%;
+	flex-grow: 1;
+}
+
+.twit{
+	background-color: white;
+	flex: 1 25%;
+	padding: 10px;
+	min-width: 200px;
+	max-width: 30%;
+	display: flex;
+	margin: 5px;
+}
+
+.twit-text{
+	font-family: "Roboto";
+}
+
+.twit-author{
+	font-family: "Roboto";
+	font-weight: bolder;
+	font-size: large;
+	display: block;
+	text-align: right;
+}
+
+.twit-icon{
+	margin: 15px;
+	font-size: 20px;
+}
+
+.twit-content {
+	display: inline-block;
+	margin: 0;
+	width: 400px;
+}
+
+.twit-author:hover a{
+	color: #03a9f4;
+}
+
+#create-twit-button{
+	background-color: red;
+	border-radius: 50%;
+	width: 65px;
+	height: 65px;
+	margin: 40px;
+	font-size: 30px;
+	
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	
+	color: white;
+	border: none;
+	float: right;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);	
+}
+
+#create-twit-button:hover{
+	color: white;
+	background-color: #03a9f4;
+}
+
+#create-twit-button:hover .fa-bullhorn{
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
